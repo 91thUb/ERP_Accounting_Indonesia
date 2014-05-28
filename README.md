@@ -9,17 +9,17 @@ Peter J. Kambey
 peterjkambey@gmail.com
 
 Cara Penggunaan:
-#1. Download dan install Yii PHP Framework (www.yiiframework.com/download/)
-#2. testing folder requirements/ yang sudah ada dalam bawaan Yii. Pastikan semua status dalam keadaan hijau, terutama MYSQL Extension 
-#3. Download seluruh folder erp_indonesia dan taroh selevel dengan folder framework (bawaan Yii)
-#4. Import file erp_indonesia.sql.zip ke MySQL Server menggunakan command line, atau yang termudah menggunakan phpmyadmin
-#5. Setting koneksi dari aplikasi ke mySQL sesuai setingan anda. Conf file ada di /erp_indonesia/protected/config/main.php  liat blocking database ( 'db' )
-#6. Buka home login aplikasi
-#7. Input 
+1. Download dan install Yii PHP Framework (www.yiiframework.com/download/)
+2. testing folder requirements/ yang sudah ada dalam bawaan Yii. Pastikan semua status dalam keadaan hijau, terutama MYSQL Extension 
+3. Download seluruh folder erp_indonesia dan taroh selevel dengan folder framework (bawaan Yii)
+4. Import file erp_indonesia.sql.zip ke MySQL Server menggunakan command line, atau yang termudah menggunakan phpmyadmin
+5. Setting koneksi dari aplikasi ke mySQL sesuai setingan anda. Conf file ada di /erp_indonesia/protected/config/main.php  liat blocking database ( 'db' )
+6. Buka home login aplikasi
+7. Input 
 username: peter
 password: kambey
 
-#8. Jika anda tidak menggunakan ZendCache maka atur seting cache di main.php menggunakan standard Yii
+8. Jika anda tidak menggunakan ZendCache maka atur seting cache di main.php menggunakan standard Yii
 ....
 	'cache'=>array(
 			'class'=>'system.caching.CFileCache',
